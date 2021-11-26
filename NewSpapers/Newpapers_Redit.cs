@@ -25,7 +25,7 @@ namespace NewSpapers
             public int id { get; set; }
             public string ageent { get; set; }
         }
-        private void Newpapers_Redit_Load(object sender, EventArgs e)
+        private void Newpapers_Redit_Load(object sender, EventArgs e) //
         {
             var tp = from p in db.Agent
                      where p.ID == prod.ID
